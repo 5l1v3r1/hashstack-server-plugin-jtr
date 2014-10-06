@@ -1,0 +1,721 @@
+[
+    {
+        "algorithm": "7zip", 
+        "devices": [], 
+        "extensions": [
+            "7z"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "7z2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Adobe PDF", 
+        "devices": [], 
+        "extensions": [
+            "pdf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "pdf2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Apple DMG", 
+        "devices": [], 
+        "extensions": [
+            "dmg", 
+            "dd", 
+            "raw", 
+            "img"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "dmg2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Bitcoin-Qt Wallet", 
+        "devices": [], 
+        "extensions": [
+            "dat"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "bitcoin2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Blackberry Enterprise Service 10", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "BLAKE2b", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Blockchain.info Wallet", 
+        "devices": [], 
+        "extensions": [
+            "dat"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "blockchain2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "BSDi", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Clipperz Password Manager", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "CRC32", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "DIGEST-MD5 C/R", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Django (scrypt)", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "eCryptfs", 
+        "devices": [], 
+        "extensions": [
+            "wrapped-passphrase"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "ecryptfs2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "EncFS", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "encfs2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "GNOME Keyring", 
+        "devices": [], 
+        "extensions": [
+            "keyring"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "keyring2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "GnuPG", 
+        "devices": [], 
+        "extensions": [
+            "skr", 
+            "sec"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "gpg2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "GRUB 2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Java KeyStore", 
+        "devices": [], 
+        "extensions": [
+            "jks", 
+            "keystore"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "keystore2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "KDE KWallet", 
+        "devices": [], 
+        "extensions": [
+            "kwl"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "kwallet2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "KeePass", 
+        "devices": [], 
+        "extensions": [
+            "kdbx"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "keepass2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Kerberos 5 AS-REQ Pre-Auth etype 17/18", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Kerberos 5 db etype 18", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Kerberos AFS", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Kerberos v4 TGT", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Kerberos v5 TGT", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "LUKS", 
+        "devices": [], 
+        "extensions": [
+            "raw", 
+            "dd", 
+            "img"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "luks2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Mac OS X Keychain", 
+        "devices": [], 
+        "extensions": [
+            "keychain"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "keychain2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "MD2", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Microsoft EFS", 
+        "devices": [], 
+        "extensions": [
+            "efs"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Microsoft Outlook PST", 
+        "devices": [], 
+        "extensions": [
+            "pst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": false, 
+        "scraper": "pst2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "MongoDB", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Nuked-Klan CMS", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Open Document Format", 
+        "devices": [], 
+        "extensions": [
+            "odt", 
+            "fodt", 
+            "ods", 
+            "fods", 
+            "odp", 
+            "fodp", 
+            "odb", 
+            "odg", 
+            "fodg", 
+            "odf"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "odf2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Oracle O5LOGON", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "PKZIP", 
+        "devices": [], 
+        "extensions": [
+            "zip"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": false, 
+        "scraper": "zip2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "Post.Office", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "PuTTY Private Key", 
+        "devices": [], 
+        "extensions": [
+            "ppk"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "putty2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "RAR 3.x", 
+        "devices": [], 
+        "extensions": [
+            "rar"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "rar2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "RAR 5.x", 
+        "devices": [], 
+        "extensions": [
+            "rar"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "rar5tojohn.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "scrypt", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": true, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "Siemens S7", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "SIP", 
+        "devices": [], 
+        "extensions": [
+            "dump", 
+            "txt"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "sipdump2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "StarOffice SXC", 
+        "devices": [], 
+        "extensions": [
+            "sxc"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "sxc2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "STRIP Password Manager", 
+        "devices": [], 
+        "extensions": [
+            "db"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "strip2john.py", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "TCP MD5 Signatures, BGP", 
+        "devices": [], 
+        "extensions": [
+            "txt", 
+            "list", 
+            "lst"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": false, 
+        "salted": false, 
+        "scraper": "", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "single"
+    }, 
+    {
+        "algorithm": "VNC", 
+        "devices": [], 
+        "extensions": [
+            "pcap"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "vncpcap2john", 
+        "scraper_args": [], 
+        "supported": false, 
+        "upload": "multi"
+    }, 
+    {
+        "algorithm": "ZIP", 
+        "devices": [], 
+        "extensions": [
+            "zip"
+        ], 
+        "is_binary": false, 
+        "requires_scraping": true, 
+        "salted": true, 
+        "scraper": "zip2john", 
+        "scraper_args": [ "-co" ], 
+        "supported": false, 
+        "upload": "multi"
+    }
+]
