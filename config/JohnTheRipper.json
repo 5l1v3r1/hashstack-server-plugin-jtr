@@ -244,22 +244,6 @@
         "upload": "multi"
     }, 
     {
-        "algorithm": "GRUB 2", 
-        "devices": [], 
-        "extensions": [
-            "txt", 
-            "list", 
-            "lst"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": false, 
-        "salted": true, 
-        "scraper": "", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "single"
-    }, 
-    {
         "algorithm": "Java KeyStore", 
         "devices": [], 
         "extensions": [
