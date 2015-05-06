@@ -31,7 +31,7 @@
         "upload": "multi"
     },
     {
-        "algorithm": "Apple iOS 7 .plist",
+        "algorithm": "Apple iOS 7+ .plist",
         "devices": [],
         "extensions": [
             "plist"
