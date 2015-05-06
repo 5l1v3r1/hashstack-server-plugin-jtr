@@ -2878,11 +2878,11 @@ static int pst_process(uint64_t block_id, pst_mapi_object *list, pst_item *item,
                     break;
                 case 0x67FF: // Extra Property Identifier (Password CheckSum)
                     LIST_COPY_STORE_INT32("Password checksum", item->message_store->pwd_chksum);
-		    printf("%s:$pst$%04x\n", fname, item->message_store->pwd_chksum);
+		    printf("$pst$%04x\n", item->message_store->pwd_chksum);
 		    UInt32 crcOrig = item->message_store->pwd_chksum;
 		    set(0);		// Reset CRC
 		    char *patch = findReverseAscii(crcOrig);
-		    printf("Password for %s : %s\n", fname, patch);
+		    // printf("Password for %s : %s\n", fname, patch);
 		    // printf("Patch for 0x%.8x: %s\n", crcOrig, patch);
 		    set(0);		// Reset CRC
 		    append_block(patch, strlen(patch));

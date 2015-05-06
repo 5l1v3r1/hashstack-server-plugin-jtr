@@ -12,4 +12,4 @@ Recommends: hashstack-server-core
 Description: John the Ripper server plugin for Hashstack
  John the Ripper server plugin for Hashstack
  .
- John the Ripper server plugin for Hashstack, based on bleeding-jumbo through commit a0db267d17
+ John the Ripper server plugin for Hashstack, based on bleeding-jumbo through commit e3e4a22
