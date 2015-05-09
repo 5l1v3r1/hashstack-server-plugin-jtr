@@ -127,7 +127,7 @@
         "valid": "$clipperz$%64x*%*s"
     }, 
     {
-        "algorithm": "DIGEST-MD5 C/R", 
+        "algorithm": "Dahua CCTV DVR", 
         "devices": [], 
         "extensions": [
             "txt", 
