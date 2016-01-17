@@ -882,20 +882,6 @@
         "upload": "multi"
     }, 
     {
-        "algorithm": "PKZIP", 
-        "devices": [], 
-        "extensions": [
-            "zip"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": false, 
-        "scraper": "zip2john", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
         "algorithm": "Post.Office", 
         "devices": [], 
         "extensions": [
@@ -1174,11 +1160,9 @@
         "is_binary": false, 
         "requires_scraping": true, 
         "salted": true, 
-        "scraper": "zip2john", 
-        "scraper_args": [
-            "-co"
-        ], 
-        "supported": false, 
+        "scraper": "zip2john",
+        "scraper_args": [],
+        "supported": false,
         "upload": "multi"
     }
 ]

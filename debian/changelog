@@ -1,4 +1,10 @@
-hashstack-server-plugin-jtr (1.8.0.6-201601) trusty; urgency=medium
+hashstack-server-plugin-jtr (1.8.0.9-201601) trusty; urgency=medium
+
+  * fix zip, drop pkzip
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Sun, 17 Jan 2016 01:09:18 -0800
+
+hashstack-server-plugin-jtr (1.8.0.8-201601) trusty; urgency=medium
 
   * fucking sse4
 
