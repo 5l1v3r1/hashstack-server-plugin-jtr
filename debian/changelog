@@ -1,3 +1,16 @@
+hashstack-server-plugin-jtr (1.8.0.6-201601) trusty; urgency=medium
+
+  * fucking sse4
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Sun, 17 Jan 2016 01:02:38 -0800
+
+hashstack-server-plugin-jtr (1.8.0.6-201601) trusty; urgency=medium
+
+  * update scrapers
+  * fix zip2john
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Sun, 17 Jan 2016 00:52:21 -0800
+
 hashstack-server-plugin-jtr (1.8.0.4-20150508) precise; urgency=low
 
   * fix duplicate algorithm name
@@ -11,7 +24,7 @@ hashstack-server-plugin-jtr (1.8.0.4-20150501) precise; urgency=low
 
  -- epixoip <epixoip@token>  Tue, 05 May 2015 18:09:38 -0700
 
-hashstack-server-plugin-jtr (1.8.0.2-20140929) UNRELEASED; urgency=low
+hashstack-server-plugin-jtr (1.8.0.2-20140929) precise; urgency=low
 
   * Initial release.
 
