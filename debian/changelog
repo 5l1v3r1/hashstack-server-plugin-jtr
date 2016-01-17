@@ -1,3 +1,9 @@
+hashstack-server-plugin-jtr (1.8.0.9-201602) trusty; urgency=medium
+
+  * o5logon has to be uppercase hex
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Sun, 17 Jan 2016 02:07:56 -0800
+
 hashstack-server-plugin-jtr (1.8.0.9-201601) trusty; urgency=medium
 
   * fix zip, drop pkzip

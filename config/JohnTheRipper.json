@@ -813,7 +813,7 @@
         "scraper_args": [], 
         "supported": false, 
         "upload": "single", 
-        "valid": "$o5logon$%96x*%20x"
+        "valid": "$o5logon$%96X*%20X"
     }, 
     {
         "algorithm": "Panama", 
