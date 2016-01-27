@@ -1,19 +1,5 @@
 [
     {
-        "algorithm": "7zip", 
-        "devices": [], 
-        "extensions": [
-            "7z"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "7z2john.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
         "algorithm": "Apple DMG", 
         "devices": [], 
         "extensions": [
@@ -28,20 +14,6 @@
         "scraper": "dmg2john.py", 
         "scraper_args": [], 
         "supported": false, 
-        "upload": "multi"
-    },
-    {
-        "algorithm": "Apple iOS 7+ .plist",
-        "devices": [],
-        "extensions": [
-            "plist"
-        ],
-        "is_binary": false,
-        "requires_scraping": true,
-        "salted": true,
-        "scraper": "ios7tojohn.pl",
-        "scraper_args": [],
-        "supported": false,
         "upload": "multi"
     },
     {
@@ -77,20 +49,6 @@
         "supported": false, 
         "upload": "single", 
         "valid": "$BLAKE2$%128x"
-    }, 
-    {
-        "algorithm": "Blockchain.info Wallet", 
-        "devices": [], 
-        "extensions": [
-            "dat"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "blockchain2john.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
     }, 
     {
         "algorithm": "BSDi", 
@@ -833,40 +791,6 @@
         "valid": "$panama$%64x"
     }, 
     {
-        "algorithm": "PBKDF2-HMAC-SHA1", 
-        "devices": [], 
-        "extensions": [
-            "txt", 
-            "list", 
-            "lst"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": false, 
-        "salted": true, 
-        "scraper": "", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "single", 
-        "valid": "$pbkdf2-hmac-sha1$%*d.%*x.%40x"
-    }, 
-    {
-        "algorithm": "PBKDF2-HMAC-SHA512", 
-        "devices": [], 
-        "extensions": [
-            "txt", 
-            "list", 
-            "lst"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": false, 
-        "salted": true, 
-        "scraper": "", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "single", 
-        "valid": "$pbkdf2-hmac-sha512$%*d.%*x.%128x"
-    }, 
-    {
         "algorithm": "PFX, PKCS12 (.pfx, .p12)", 
         "devices": [], 
         "extensions": [
@@ -908,20 +832,6 @@
         "requires_scraping": true, 
         "salted": true, 
         "scraper": "putty2john", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
-        "algorithm": "RAR 3.x", 
-        "devices": [], 
-        "extensions": [
-            "rar"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "rar2john", 
         "scraper_args": [], 
         "supported": false, 
         "upload": "multi"
@@ -1102,40 +1012,6 @@
         "supported": false, 
         "upload": "single", 
         "valid": "$WoWSRP$%*X$%*X%%*s"
-    }, 
-    {
-        "algorithm": "TrueCrypt 5.0+ AES-XTS-PBKDF2-HMAC-RipeMD160", 
-        "devices": [], 
-        "extensions": [
-            "raw", 
-            "dd", 
-            "img", 
-            "tc"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "truecrypt_volume2john", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
-        "algorithm": "TrueCrypt 5.0+ AES-XTS-PBKDF2-HMAC-Whirlpool", 
-        "devices": [], 
-        "extensions": [
-            "raw", 
-            "dd", 
-            "img", 
-            "tc"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "truecrypt_volume2john", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
     }, 
     {
         "algorithm": "VNC", 

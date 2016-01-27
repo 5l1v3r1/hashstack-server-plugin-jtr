@@ -1,3 +1,9 @@
+hashstack-server-plugin-jtr (1.8.0.9-201603) trusty; urgency=medium
+
+  * remove some formats & associated scrapers
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Wed, 27 Jan 2016 00:54:53 -0800
+
 hashstack-server-plugin-jtr (1.8.0.9-201602) trusty; urgency=medium
 
   * o5logon has to be uppercase hex
