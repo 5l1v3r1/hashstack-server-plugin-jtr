@@ -136,20 +136,6 @@
         "valid": "scrypt$%*s$%*d$%*d$%*d$%*d$%88s"
     }, 
     {
-        "algorithm": "eCryptfs", 
-        "devices": [], 
-        "extensions": [
-            "wrapped-passphrase"
-        ], 
-        "is_binary": false, 
-        "requires_scraping": true, 
-        "salted": true, 
-        "scraper": "ecryptfs2john.py", 
-        "scraper_args": [], 
-        "supported": false, 
-        "upload": "multi"
-    }, 
-    {
         "algorithm": "Eggdrop", 
         "devices": [], 
         "extensions": [

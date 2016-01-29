@@ -1,3 +1,9 @@
+hashstack-server-plugin-jtr (1.8.0.9-201604) trusty; urgency=medium
+
+  * remove ecryptfs
+
+ -- Jeremi Gosney <jgosney@sagitta.pw>  Thu, 28 Jan 2016 19:32:34 -0800
+
 hashstack-server-plugin-jtr (1.8.0.9-201603) trusty; urgency=medium
 
   * remove some formats & associated scrapers
